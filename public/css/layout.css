@@ -185,7 +185,7 @@ ul#nav li.current a { color: #1285f0; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #0f0f0f;
+   background: #26262c;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -234,7 +234,7 @@ ul#nav li.current a { color: #1285f0; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: rgb(27, 28, 36);
+   background:#18181b;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -290,14 +290,14 @@ ul#nav li.current a { color: #1285f0; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 26px;
    list-style: none;
 }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: rgb(83, 83, 83);
-  	height: 42px;
+  	background: rgb(8, 6, 6);
+  	height: 35px;
   	border-radius: 0px;
 }
 .bars li em {
@@ -315,11 +315,11 @@ ul#nav li.current a { color: #1285f0; }
    top: 0;
 
    margin: 0;
-   padding-right: 24px;
-  	background: #313131;
+   padding-right: 20px;
+  	background: #d3d0d0;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 35px;
+   line-height: 35px;
    border-radius: 0px;
 }
 /*

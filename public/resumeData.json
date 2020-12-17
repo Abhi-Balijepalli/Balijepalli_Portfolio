@@ -9,11 +9,10 @@
     "phone": "425-628-4385",
     "github":"https://github.com/Abhi-Balijepalli",
     "linkedin":"https://www.linkedin.com/in/abhijith-b-1808/",
-    "website": "https://www.linkedin.com/in/abhijith-b-1808/",
     "resumedownload":"https://drive.google.com/file/d/1mlfFTfIquv_opnGZEw7FtK1l44QVvR7Z/view?usp=sharing"
   },
   "resume":{
-    "skillmessage":"Here are my top programming languages that i use daily!",
+    "skillmessage":"Skills",
     "education":[
       {
         "school":"Oregon State University",
@@ -63,8 +62,34 @@
         "level":"75%"
       },
       {
-        "name":"SQL",
+        "name":"mySQL",
         "level":"65%"
+      },
+      {
+        "name":"Rust",
+        "level":"65%"
+      }
+    ],
+    "cloud":[
+      {
+        "name":"Heroku",
+        "level":"95%"
+      },
+      {
+        "name":"GIT",
+        "level":"95%"
+      },
+      {
+        "name":"Cloudflare(Workers)",
+        "level":"75%"
+      },
+      {
+        "name":"Azure",
+        "level":"85%"
+      },
+      {
+        "name":"Firebase(Console)",
+        "level":"90%"
       }
     ]
   },
