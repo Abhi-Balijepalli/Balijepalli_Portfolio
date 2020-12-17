@@ -49,8 +49,11 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
+   width: 100%;
+   background-color: rgba(17, 17, 20, 0.658);
+   padding-bottom: 20px;
+   padding-top: 30px;
+   border-radius: 15px;
    text-align: center;
 }
 
