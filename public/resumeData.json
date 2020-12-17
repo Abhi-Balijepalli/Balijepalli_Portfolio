@@ -86,7 +86,7 @@
         "title":"One Time Pads",
         "category":" (Source Code) Client and Server communication to decrypt and encrypt files concurrently on a network.",
         "image":"one_time_pads.jpg",
-        "url":"hhttps://github.com/Abhi-Balijepalli/Unix_Systems/tree/main/One_Time_Pads"
+        "url":"https://github.com/Abhi-Balijepalli/Unix_Systems/tree/main/One_Time_Pads"
       },
       {
         "title":"Map Reduce (Rust)",
