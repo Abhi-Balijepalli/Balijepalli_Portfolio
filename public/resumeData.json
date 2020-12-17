@@ -34,7 +34,7 @@
         "title":"Team Lead",
         "years":"September 2018 - Present",
         "description":"Worked with a sub-team of 6 people to create robotics software for an underwater remote operated vehicle to compete in the MATE International challenge, while communicating with the school board to approve funding and expenses.",
-        "tech" : "Python, NodeJs, PCB Design, HTML/CSS, C"
+        "tech" : "Python, NodeJs, Circuit Maker, C, Nvidia Jetson TX2"
       },
       {
         "company":"Oregon State University",
