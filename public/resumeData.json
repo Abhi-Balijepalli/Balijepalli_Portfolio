@@ -128,8 +128,8 @@
         "url":"https://github.com/Abhi-Balijepalli/Unix_Systems/tree/main/Multi_Threaded_Map_Reduce"
       },
       {
-        "title":"Firebase Authentication",
-        "category":" (Template) A ReactJs template of OAuth using google firebase console.",
+        "title":"Firebase OAuth Template",
+        "category":"A ReactJs template of OAuth using google firebase console.",
         "image":"fire_auth.jpg",
         "url":"https://github.com/Abhi-Balijepalli/Google-Firebase-Implementation"
       }

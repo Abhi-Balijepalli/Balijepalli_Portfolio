@@ -893,7 +893,14 @@ footer .copyright li:before {
 footer .copyright  li:first-child:before {
     display: none;
 }
-
+.footer_copy{
+   color: #cf995bbe;
+   font: small-caption;
+}
+.footer_thanks{
+   color:rgb(83, 83, 83);
+   font-variant: small-caps;
+}
 /* social links */
 footer .social-links {
    margin: 18px 0 30px 0;
