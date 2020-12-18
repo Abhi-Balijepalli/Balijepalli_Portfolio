@@ -5,8 +5,8 @@ class Resume extends Component {
   getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
-    for (var i = 3; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
+    for (var i = 6; i < 9; i++) {
+      color += letters[Math.floor(Math.random() * 15)];
     }
     return color;
   }
