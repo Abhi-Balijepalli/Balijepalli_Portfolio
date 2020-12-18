@@ -1,4 +1,5 @@
-# My Portfolio Website
- - Cloud: Heroku and CDN
+# Abhi's Portfolio
+ - Cloud & CDN: Heroku
  - Domain: Godaddy (forwarded)
- link: http://abhibalijepalli.com/
+Godaddy link: http://abhibalijepalli.com/
+Heroku link: https://abhi-balijepalli.herokuapp.com
