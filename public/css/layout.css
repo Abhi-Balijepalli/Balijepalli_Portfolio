@@ -304,7 +304,7 @@ ul#nav li.current a { color: #CF995B; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: rgb(68, 67, 67);
+  	background: rgb(75, 74, 74);
   	height: 35px;
   	border-radius: 5px;
 }
