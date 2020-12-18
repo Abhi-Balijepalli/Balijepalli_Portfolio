@@ -177,7 +177,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #b88a56; }
+ul#nav li.current a { color: #CF995B; }
 
 
 /* ------------------------------------------------------------------ */
@@ -185,7 +185,7 @@ ul#nav li.current a { color: #b88a56; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #26262c;
+   background: #1e1e25;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -205,8 +205,8 @@ ul#nav li.current a { color: #b88a56; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 190px;
+   height: 190px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -250,7 +250,7 @@ ul#nav li.current a { color: #b88a56; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #b88a56;
+   border-bottom: 3px solid #CF995B;
    padding-bottom: 6px;
 }
 #resume h3 {
