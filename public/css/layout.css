@@ -275,6 +275,11 @@ ul#nav li.current a { color: #b88a56; }
    margin-right: 5px;
    margin-left: 5px;
 }
+#resume .tech{
+   margin-bottom: 0px;
+   color: #d3d3d3;
+   font: 16px;
+}
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
