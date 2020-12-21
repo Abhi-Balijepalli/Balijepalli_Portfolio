@@ -26,7 +26,7 @@
         "company":"Lunchbot - Startup",
         "title":"Software Engineering Intern",
         "years":"June 2020 - August 2020",
-        "description":"Created a highly scalable App for restaurant delivery services for enterprises and firms using React-Native, authentication and database pipeline using Google Firebase console and Elastic Search on Appbase.io.",
+        "description":"Created a highly scalable App for restaurant delivery services for enterprises and firms using React-Native, pipelined authentication (OAuth) using Google Firebase console, and implemented Elastic Search from Appbase.io in ReactJS",
         "tech": "React-Native, ReactJs, Firebase Console, Microsoft Azure, Elastic Search, OAuth"
       },
       {
