@@ -80,7 +80,7 @@ class Resume extends Component {
       <div className="row skill">
          <div className="three columns header-col">
             <h1><span>Programming</span></h1>
-            <b><span>Skills Rating</span></b> 
+            <b><span>Skills</span></b> 
          </div>
          <div className="nine columns main-col">
          <p></p>
@@ -95,7 +95,7 @@ class Resume extends Component {
       <div className="row cloud">
          <div className="three columns header-col">
             <h1><span>Software Tools</span></h1>
-            <b><span>Skills Rating</span></b> 
+            <b><span>Familiarity</span></b> 
          </div>
          <div className="nine columns main-col">
          <p></p>
