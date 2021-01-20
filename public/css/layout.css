@@ -50,7 +50,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 100%;
-   background-color: rgba(17, 17, 20, 0.295);
+   background-color: rgba(17, 17, 20, 0.521);
    padding-bottom: 20px;
    padding-top: 30px;
    border-radius: 15px;
@@ -138,7 +138,7 @@ header .scrolldown a:hover { color: #0762f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: rgb(24, 31, 46); }
+.opaque { background-color: rgb(12, 13, 17); }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -185,14 +185,14 @@ ul#nav li.current a { color: #CF995B; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #1e1e25;
+   background: #131318;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #5885cc; }
+#about a:hover, #about a:focus { color: #CF995B; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
