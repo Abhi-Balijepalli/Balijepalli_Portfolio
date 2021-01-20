@@ -31,8 +31,8 @@
       },
       {
         "company":"Oregon State Robotics",
-        "title":"Team Lead",
-        "years":"September 2018 - Present",
+        "title":"Software Team Lead",
+        "years":"September 2018 - December 2020",
         "description":"Worked with a sub-team of 6 people to create robotics software for an underwater remote operated vehicle to compete in the MATE International challenge, while communicating with the school board to approve funding and expenses.",
         "tech" : "Python, NodeJs, C, Linear Optimization, Nvidia Jetson TX2"
       },
