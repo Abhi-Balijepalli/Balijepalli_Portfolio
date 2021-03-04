@@ -23,6 +23,13 @@
     ],
     "work":[
       {
+        "company":"Pondr - Startup",
+        "title":"Software Engineer",
+        "years":"February 2021 - Present",
+        "description":"Working on creating the entire web infrastructure, which includes backend database for user posts, authentication, and dynamic public pages of the official Pondr website.",
+        "tech": "ReactJs, Firebase Console, OAuth, Redux"
+      },
+      {
         "company":"Lunchbot - Startup",
         "title":"Software Engineering Intern",
         "years":"June 2020 - August 2020",
