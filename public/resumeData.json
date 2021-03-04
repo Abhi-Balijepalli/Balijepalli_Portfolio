@@ -23,14 +23,14 @@
     ],
     "work":[
       {
-        "company":"Pondr - Startup",
-        "title":"Software Engineer",
+        "company":"Pondr [Startup]",
+        "title":"Founding Software Engineer",
         "years":"February 2021 - Present",
         "description":"Working on creating the entire web infrastructure, which includes backend database for user posts, authentication, and dynamic public pages of the official Pondr website.",
         "tech": "ReactJs, Firebase Console, OAuth, Redux"
       },
       {
-        "company":"Lunchbot - Startup",
+        "company":"Stealth Startup",
         "title":"Software Engineering Intern",
         "years":"June 2020 - August 2020",
         "description":"Created a highly scalable App for restaurant delivery services for enterprises and firms using React-Native, pipelined authentication (OAuth) using Google Firebase console, and implemented Elastic Search from Appbase.io in ReactJS",
