@@ -83,19 +83,11 @@
         "level":"95%"
       },
       {
-        "name":"Git",
-        "level":"95%"
-      },
-      {
         "name":"Cloudflare (Workers)",
         "level":"75%"
       },
       {
-        "name":"Azure",
-        "level":"80%"
-      },
-      {
-        "name":"Firebase Console",
+        "name":"Google Firestore",
         "level":"90%"
       },
       {
