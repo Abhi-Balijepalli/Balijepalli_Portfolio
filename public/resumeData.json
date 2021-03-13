@@ -24,9 +24,9 @@
     "work":[
       {
         "company":"Pondr [Startup]",
-        "title":"Founding Software Engineer",
+        "title":"Lead Engineer",
         "years":"February 2021 - Present",
-        "description":"Working on creating the entire web infrastructure, which includes Pondr API, NoSQL database, authentication, and dynamic public pages for the official Pondr website.",
+        "description":"I architect and design the entire web infrastructure; which includes Pondr API, NoSQL database, OAuth authentication, and dynamic public pages for the official Pondr website",
         "tech": "ReactJs, Google Firestore, Firebase OAuth, Redux, Python, FastAPI, NoSQL"
       },
       {
