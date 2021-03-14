@@ -34,7 +34,7 @@
         "title":"Software Engineering Intern",
         "years":"June 2020 - August 2020",
         "description":"Created a highly scalable App for restaurant delivery services for enterprises and firms using React-Native, pipelined authentication (OAuth) using Google Firebase console, and implemented Elastic Search from Appbase.io in ReactJS",
-        "tech": "React-Native, ReactJs, Firebase Console, Microsoft Azure, Elastic Search, OAuth"
+        "tech": "React-Native, Firebase Console, Microsoft Azure, Elastic Search, OAuth"
       },
       {
         "company":"Oregon State Robotics",
