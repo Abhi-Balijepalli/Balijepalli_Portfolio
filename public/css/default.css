@@ -95,7 +95,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -189,7 +189,26 @@ p.lead {
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em { font: 15px/30px 'opensans-italic', sans-serif; }
-strong, b { font: 14px/25px 'opensans-bold', arial; color:#CF995B; }
+strong, b { 
+   font: 14px/25px 'opensans-bold', arial; 
+   
+      text-align: center;
+      
+      background: linear-gradient(90deg, #ffbe44 30%, rgb(238, 84, 57) 40%, rgb(119, 138, 247) 80%);
+      background-size: 200% auto;
+      
+      color: #000;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite; 
+}
+@keyframes shine {
+   to {
+     background-position: 200% center;
+   }
+ }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */
@@ -457,10 +476,10 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 100%;
+   max-width: 220px;
    height: auto;
 }
-img.pull-right { margin: 12px 0px 0px 18px; }
+img.pull-right { margin: 12px 1px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
 /*  6. Buttons  --------------------------------------------------------- */

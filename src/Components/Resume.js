@@ -3,11 +3,8 @@ import React, { Component } from 'react';
 class Resume extends Component {
 
   getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 3; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
+    var items = ["#CF995B"];
+    var color = items[Math.floor(Math.random() * items.length)];
     return color;
   }
   
@@ -80,7 +77,7 @@ class Resume extends Component {
       <div className="row skill">
          <div className="three columns header-col">
             <h1><span>Programming</span></h1>
-            <b><span>Skills</span></b> 
+            <span>Skills</span>
          </div>
          <div className="nine columns main-col">
          <p></p>
@@ -95,7 +92,7 @@ class Resume extends Component {
       <div className="row cloud">
          <div className="three columns header-col">
             <h1><span>Software Tools</span></h1>
-            <b><span>Familiarity</span></b> 
+            <span>Familiarity</span> 
          </div>
          <div className="nine columns main-col">
          <p></p>

@@ -121,6 +121,18 @@
         "category":"A ReactJs template of OAuth using google firebase console.",
         "image":"fire_auth.jpg",
         "url":"https://github.com/Abhi-Balijepalli/Google-Firebase-Implementation"
+      },
+      {
+        "title":"Open-Weather API Web-app",
+        "category":"A ReactJS web-app that shows city forecast data using the OpenWeatherAPI for any city.",
+        "image":"open-weather.png",
+        "url":"https://github.com/Abhi-Balijepalli/open-weather-api-web-app"
+      },
+      {
+        "title":"Star wars Web-app",
+        "category":"ReactJS web-app that give you in depth detail about Star Wars characters, films, movies and how they overlap.",
+        "image":"star-wars.png",
+        "url":"https://github.com/Abhi-Balijepalli/Star-Wars-Trivia"
       }
     ]
   }

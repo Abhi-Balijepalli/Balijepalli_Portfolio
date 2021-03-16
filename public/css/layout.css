@@ -177,7 +177,23 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #CF995B; }
+ul#nav li.current a { 
+   background: linear-gradient(90deg, #ca880c 30%, rgb(237, 167, 155) 40%, rgb(247, 224, 119) 80%);
+      background-size: 200% auto;
+      
+      color: #000;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite; 
+}
+@keyframes shine {
+   to {
+     background-position: 200% center;
+   }
+ } 
+
 
 
 /* ------------------------------------------------------------------ */
@@ -185,7 +201,7 @@ ul#nav li.current a { color: #CF995B; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #131318;
+   background: linear-gradient(180deg, #1b202b, #161518);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -235,7 +251,7 @@ ul#nav li.current a { color: #CF995B; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background:#18181b;
+   background: linear-gradient(180deg, #161518,#1f1606, #0e0e10);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -304,13 +320,21 @@ ul#nav li.current a { color: #CF995B; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: rgb(75, 74, 74);
+  	background: rgb(208, 207, 207);
   	height: 35px;
   	border-radius: 5px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #f8f5f5;
+   background: linear-gradient(90deg, #ffbe44 30%, rgb(238, 84, 57) 40%, rgb(119, 138, 247) 80%);
+      background-size: 200% auto;
+      
+      color: #000;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,6 +342,11 @@ ul#nav li.current a { color: #CF995B; }
    top: -36px;
    border-radius: 5px;
 }
+@keyframes shine {
+   to {
+     background-position: 200% center;
+   }
+ }
 .bar-expand {
    position: absolute;
    left: 0;
@@ -329,7 +358,7 @@ ul#nav li.current a { color: #CF995B; }
    display: inline-block;
   	height: 35px;
    line-height: 35px;
-   border-radius: 5px;
+   /* border-radius: 5px; */
 }
 /*
 .git {
@@ -424,7 +453,7 @@ ul#nav li.current a { color: #CF995B; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #1d1e24;
+   background: linear-gradient(180deg, #0e0e10, #1c1810);
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -861,7 +890,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #110c0c;
+   background: linear-gradient(180deg, #181611,#0e0e10);
    font-size: 14px;
    text-align: center;
    position: relative;
