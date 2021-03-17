@@ -104,7 +104,7 @@
     "projects": [
       {
         "title":"Pinterlist",
-        "category":"(Template_Draft) A webscrapper for pinterest that extracts ingredients from long and boring cooking blogs.",
+        "category":"(Template Draft) A webscrapper for pinterest that extracts ingredients from long and boring cooking blogs.",
         "image":"Pinterlist.jpg",
         "url":"https://github.com/Abhi-Balijepalli/Pinterlist-1"
       },
@@ -122,19 +122,19 @@
       },
       {
         "title":"Firebase OAuth Template",
-        "category":"A ReactJs template of OAuth using google firebase console.",
+        "category":"(Template) A ReactJs template of OAuth using google firebase console.",
         "image":"fire_auth.jpg",
         "url":"https://github.com/Abhi-Balijepalli/Google-Firebase-Implementation"
       },
       {
         "title":"Open-Weather API Web-app",
-        "category":"A ReactJS web-app that shows city forecast data using the OpenWeatherAPI for any city.",
+        "category":"(Source Code) A ReactJS web-app that shows city forecast data using the OpenWeatherAPI for any city.",
         "image":"open-weather.png",
         "url":"https://github.com/Abhi-Balijepalli/open-weather-api-web-app"
       },
       {
         "title":"Star wars Web-app",
-        "category":"ReactJS web-app that give you in depth detail about Star Wars characters, films, movies and how they overlap.",
+        "category":"(Source Code) ReactJS web-app that give you in depth detail about Star Wars characters, films, movies and how they overlap.",
         "image":"star-wars.png",
         "url":"https://github.com/Abhi-Balijepalli/Star-Wars-Trivia"
       }
