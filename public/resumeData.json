@@ -62,7 +62,7 @@
       },
       {
         "name":"ReactJs",
-        "level":"80%"
+        "level":"90%"
       },
       {
         "name":"NodeJs",
@@ -92,6 +92,10 @@
       },
       {
         "name":"AWS",
+        "level":"70%"
+      },
+      {
+        "name":"Azure",
         "level":"70%"
       }
     ]
