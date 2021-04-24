@@ -138,7 +138,7 @@ header .scrolldown a:hover { color: #0762f9; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: rgb(12, 13, 17); }
+.opaque { background-color: #190a22; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -146,7 +146,7 @@ header .scrolldown a:hover { color: #0762f9; }
 ul#nav {
    min-height: 48px;
    width: auto;
-   background-color: rgba(12, 12, 12, 0.823);
+   background-color: rgb(7, 1, 7);
    /* center align the menu */
    text-align: center;
 }
@@ -178,7 +178,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { 
-   background: linear-gradient(90deg, #ca880c 30%, rgb(237, 167, 155) 40%, rgb(247, 224, 119) 80%);
+   background: linear-gradient(90deg, #919797 50%, rgb(255, 117, 54) 40%);
       background-size: 200% auto;
       
       color: #000;
@@ -201,7 +201,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: linear-gradient(180deg, #1b202b, #161518);
+   background: linear-gradient(180deg, #0e0e0e, #1e1929);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -251,7 +251,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: linear-gradient(180deg, #161518,#1f1606, #0e0e10);
+   background: linear-gradient(180deg, #1e1929,#14061d, #0e0e10);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -266,7 +266,7 @@ ul#nav li.current a {
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #CF995B;
+   border-bottom: 3px solid rgb(245, 138, 39);
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -453,7 +453,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: linear-gradient(180deg, #0e0e10, #1c1810);
+   background: linear-gradient(180deg, rgb(83, 83, 83));
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -867,7 +867,7 @@ call-to-action .button {
    width: 65%;
    margin-left: 26%;
 }
-#message-warning { color: #D72828; }
+#message-warning { color: #d78b28; }
 #message-success { color: #0762f9; }
 
 #message-warning i,
@@ -890,13 +890,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   background: linear-gradient(180deg, #181611,#0e0e10);
+   background: linear-gradient(180deg, rgb(83, 83, 83));
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #ca6c2d; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -923,7 +923,7 @@ footer .copyright  li:first-child:before {
     display: none;
 }
 .footer_copy{
-   color: #cf995bbe;
+   color: #c7c7c7be;
    font: small-caption;
 }
 .footer_thanks{

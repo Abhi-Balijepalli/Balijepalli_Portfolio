@@ -194,7 +194,7 @@ strong, b {
    
       text-align: center;
       
-      background: linear-gradient(90deg, #ffbe44 30%, rgb(238, 84, 57) 40%, rgb(119, 138, 247) 80%);
+      background: linear-gradient(90deg, rgb(238, 151, 69) 50%, #e95d5d 40%);
       background-size: 200% auto;
       
       color: #000;

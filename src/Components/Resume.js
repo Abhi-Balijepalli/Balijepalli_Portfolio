@@ -74,7 +74,7 @@ class Resume extends Component {
         </div>
     </div>
 
-      <div className="row skill">
+      {/* <div className="row skill">
          <div className="three columns header-col">
             <h1><span>Programming</span></h1>
             <span>Skills</span>
@@ -87,9 +87,9 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
-      </div>
+      </div> */}
 
-      <div className="row cloud">
+      {/* <div className="row cloud">
          <div className="three columns header-col">
             <h1><span>Software Tools</span></h1>
             <span>Familiarity</span> 
@@ -102,7 +102,7 @@ class Resume extends Component {
 					</ul>
 				</div>
 			</div>
-      </div>
+      </div> */}
    </section>
     );
   }
