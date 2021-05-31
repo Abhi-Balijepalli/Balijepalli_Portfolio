@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Abhi Balijepalli",
-    "description":"Hi, I'm an undergraduate at Oregon State University studying Computer Science. Some of my interests are Full-Stack, ML/AI, and Systems Engineering. Check out my projects down below",
+    "description":"Hi, I'm an undergraduate at Oregon State University studying Computer Science. Some of my interests are Full-Stack development and Cloud Security. Feel free to reach out to me :)",
     "image":"profilepic.jpg",
     "bio":"I was born in India but spent most of my life in Singapore and Seattle, WA. When I'm not playing video games you can catch me hiking or biking on various Pacfic Northwest trails.",
-    "contactmessage":"Contact me if you wanna chat about tech",
+    "contactmessage":"Contact me if you wanna chat about tech or what I'm up to!",
     "email": "Abhibalijepalli@gmail.com",
     "phone": "425-628-4385",
     "github":"https://github.com/Abhi-Balijepalli",
@@ -26,7 +26,7 @@
         "company":"Pondr",
         "title":"Founding Engineer",
         "years":"February 2021 - Present",
-        "description":"I design the web infrastructure of Pondr: which includes Pondr public and Super Admin API, NoSQL database, OAuth authentication, Azure Kubernetes, and Dev-Ops",
+        "description":"I design the web infrastructure of Pondr: which includes Pondr public and Super Admin API, NoSQL database, OAuth authentication, and Dev-Ops",
         "tech": "ReactJs, GCP, Azure, OAuth, Kubernetes, Python Flask, NoSQL, Axios, Docker"
       },
       {
