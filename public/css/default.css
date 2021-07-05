@@ -188,21 +188,14 @@ p.lead {
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
+em { font: 14x/30px 'opensans-italic', sans-serif; }
 strong, b { 
-   font: 14px/25px 'opensans-bold', arial; 
+   font: 14px/25px 'opensans', arial; 
    
       text-align: center;
+      font-weight: bold;
+      color: rgb(109, 204, 207);
       
-      background: linear-gradient(90deg, rgb(238, 151, 69) 50%, #e95d5d 40%);
-      background-size: 200% auto;
-      
-      color: #000;
-      background-clip: text;
-      text-fill-color: transparent;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: shine 3s linear infinite; 
 }
 @keyframes shine {
    to {
