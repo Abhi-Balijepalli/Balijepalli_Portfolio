@@ -32,7 +32,7 @@
       },
       {
         "company":"Pondr",
-        "link": "https://letspondr.com",
+        "link": "https://www.letspondr.com",
         "title":"Lead Engineer",
         "years":"February 2021 - Present",
         "description":"I design the web infrastructure of Pondr: which includes Pondr public and Super Admin API, NoSQL database, OAuth authentication, and Dev-Ops",
