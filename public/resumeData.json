@@ -33,7 +33,7 @@
       {
         "company":"Pondr",
         "link": "https://www.letspondr.com",
-        "title":"Lead Engineer",
+        "title":"Founding Engineer",
         "years":"February 2021 - Present",
         "description":"I design the web infrastructure of Pondr: which includes Pondr public and Super Admin API, NoSQL database, OAuth authentication, and Dev-Ops",
         "tech": "ReactJs, GCP, Azure, OAuth, Kubernetes, Python Flask, NoSQL, Axios, Docker, CI/CD Pipelines"
