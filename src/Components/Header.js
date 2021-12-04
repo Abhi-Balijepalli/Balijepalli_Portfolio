@@ -13,18 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-      <ParticlesBg color = "#b45eff" num= {150} type="cobweb" bg={true} />
-      <nav id="nav-wrap">
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-         {/* <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Experience</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-         </ul> */}
-      </nav>
+      <ParticlesBg color = "#130037" num= {50} type="thick" bg={true} />
 
       <div className="row banner">
 
