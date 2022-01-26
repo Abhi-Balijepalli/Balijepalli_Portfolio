@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Abhi Balijepalli",
-    "description":"Hi, I'm an undergraduate at Oregon State University studying Computer Science. Some of my interests are Site-reliability, DevOps, and full stack engineering. Feel free to reach out to me :)",
-    "image":"profilepic.jpg",
+    "description":"Hi, I'm an undergraduate at Oregon State University studying Computer Science. Some of my interests are Site-reliability, DevOps, and Back-end engineering. Feel free to reach out to me :)",
+    "image":"profile.jpg",
     "bio":"I grew up in Seattle, WA and I love to climb/boulder. Hit me up if you wanna chat about startups or tech!",
     "contactmessage":"Contact me if you wanna chat about tech or what I'm up to!",
     "email": "Abhibalijepalli@gmail.com",
@@ -18,7 +18,7 @@
         "school":"Oregon State University",
         "degree":"Batchelors of Science",
         "graduated":"June 2022",
-        "description":"Applied Computer Science"
+        "description":"Computer Science"
       }
     ],
     "work":[
@@ -37,22 +37,6 @@
         "years":"February 2021 - November 2021",
         "description":"I designed the web infrastructure of Pondr: which includes Pondr public and Super Admin API, NoSQL database, OAuth authentication, and Dev-Ops",
         "tech": ["ReactJs", "Firebase", "Azure", "Kubernetes", "Python", "NoSQL", "Docker"]
-      },
-      {
-        "company":"Stealth Startup",
-        "link": "",
-        "title":"Software Engineering Intern",
-        "years":"June 2020 - August 2020",
-        "description":"Created a highly scalable App for restaurant delivery services for enterprises and firms using React-Native, pipelined authentication (OAuth) using Google Firebase console, and implemented Elastic Search from Appbase.io in ReactJS",
-        "tech": ["React-Native", "Firebase", "Azure", "Elastic Search", "OAuth"]
-      },
-      {
-        "company":"Oregon State Robotics",
-        "link": "https://osurobotics.club/",
-        "title":"Software Team Lead",
-        "years":"September 2018 - December 2020",
-        "description":"Worked with a sub-team of 6 people to create robotics software for an underwater remote operated vehicle to compete in the MATE International challenge, while communicating with the school board to approve funding and expenses.",
-        "tech" : ["Python", "Node.js", "C", "Nvidia Jetson TX2"]
       },
       {
         "company":"Oregon State University",
