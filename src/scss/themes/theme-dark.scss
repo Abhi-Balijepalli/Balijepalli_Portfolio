@@ -1,0 +1,107 @@
+body[data-theme="dark"] {  
+
+   @import '../src/scss/dark-slider.scss';
+
+   .slider-tab {
+      background-color: #2e3240;
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: #3C342C;
+      opacity: 0.8;
+   }
+
+   .slider-image {
+      border: 5px solid #8C8C8C;
+   }
+
+   .language {
+      background-color: #494949;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #918e97;
+      color: white;
+   }
+
+   header {
+      background-color: #081c3da4;
+      h1 {
+         color: white;
+      }
+   }
+
+   #about {
+      background-color: #081c3db4;
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background:  #333333;
+      }
+      .card {
+         background: #1b1b2e;
+         color: white;
+      }
+   }
+
+   #portfolio {
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
+   #resume {
+      filter: brightness(90%);
+      background: #081c3dcb;
+      .section-title {
+         color: white !important;
+      }
+
+      .experience-badge {
+         background: #3d3d3d !important;
+         color: white;
+      }
+
+      .main-badge {
+         background: #2c2c2c !important;
+      }
+
+      .vertical-timeline-element-date {
+         color: white;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #262626 !important;
+      }
+      @media only screen and (max-width: 1169px) { 
+         .vertical-timeline-element-date {
+            color: black;
+         }
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #8d8b8b;
+      color: white;
+   }
+
+   .close-icon {
+      color: white;
+   }
+}

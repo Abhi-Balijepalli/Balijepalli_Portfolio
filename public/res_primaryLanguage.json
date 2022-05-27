@@ -1,0 +1,105 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Abhi Balijepalli. I graduated from Oregon State University with a Bachelors in Computer Science 🏫. I love talking about startups and hope to create my own one day! In my free time I play badminton 🏸, go hiking 🌄 or ride my bike 🏍️",
+      "section_name": {
+        "about": "About me",
+        "experience": "Experience"
+      }
+    },
+    "experience": [
+      {
+        "company": "Zoom",
+        "title": "Site Reliability Developer",
+        "years": "7.2022 - present",
+        "mainTech": [
+          "Kubernetes"
+        ],
+        "technologies": [
+          "Docker",
+          "Python",
+          "Ansible",
+          "Golang",
+          "AWS",
+          "Firebase",
+          "Prometheus",
+          "CI/CD"
+        ]
+      },
+      {
+        "company": "Pondr",
+        "title": "Founding Engineer",
+        "years": "02.2021 - 10.2021",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Flask",
+          "Kubernetes",
+          "Javascript",
+          "Docker",
+          "Azure",
+          "GCP",
+          "NoSQL",
+          "Authenticated APIs"
+        ]
+      },
+      {
+        "company": "Cisco",
+        "title": "Software Engineering Intern",
+        "years": "06.2021 - 09.2021",
+        "mainTech": [
+          "Bash"
+        ],
+        "technologies": [
+          "Promethus",
+          "Jenkins",
+          "CI/CD",
+          "Golang",
+          "Metrics",
+          "Webex API"
+        ]
+      },
+      {
+        "company": "Oregon State University Robotics",
+        "title": "Software Engineering Lead",
+        "years": "09.2018 - 12.2020",
+        "mainTech": [
+          "C/C++"
+        ],
+        "technologies": [
+          "Arduino",
+          "Python",
+          "Embedded Systems",
+          "Javascript",
+          "I2C"
+        ]
+      },
+      {
+        "company": "Stealth Startup",
+        "title": "Front-End Engineering Intern",
+        "years": "09.2018 - 12.2020",
+        "mainTech": [
+          "React Native"
+        ],
+        "technologies": [
+          "Javascript",
+          "Azure",
+          "SQL"
+        ]
+      },
+      {
+        "company": "Oregon State University",
+        "title": "Undergraduate Researcher",
+        "years": "04.2019 - 09.2019",
+        "mainTech": [
+          "Arduino"
+        ],
+        "technologies": [
+          "C/C++",
+          "Python",
+          "Matlab"
+        ]
+      }
+    ]
+  }

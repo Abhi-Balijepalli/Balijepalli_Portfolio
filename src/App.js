@@ -1,53 +1,69 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
+import React, { Component } from "react";
+import $ from "jquery";
+import "./App.scss";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Experience from "./components/Experience";
 
 class App extends Component {
 
-  constructor(props){
-    super(props);
+  constructor(props) {
+    super();
     this.state = {
-      foo: 'bar',
-      resumeData: {}
+      foo: "bar",
+      resumeData: {},
+      sharedData: {},
     };
-
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-
   }
 
-  getResumeData(){
+  componentDidMount() {
+    this.loadSharedData();
+    this.loadResumeFromPath('res_primaryLanguage.json');
+  }
+
+  loadResumeFromPath(path) {
     $.ajax({
-      url:'./resumeData.json',
-      dataType:'json',
+      url: path,
+      dataType: "json",
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function (data) {
+        this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
+      error: function (xhr, status, err) {
         alert(err);
-      }
+      },
     });
   }
 
-  componentDidMount(){
-    this.getResumeData();
+  loadSharedData() {
+    $.ajax({
+      url: `portfolio_shared_data.json`,
+      dataType: "json",
+      cache: false,
+      success: function (data) {
+        this.setState({ sharedData: data });
+        document.title = `${this.state.sharedData.basic_info.name}`;
+      }.bind(this),
+      error: function (xhr, status, err) {
+        alert(err);
+      },
+    });
   }
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
-        <Footer data={this.state.resumeData.main}/>
+      <div>
+        <Header sharedData={this.state.sharedData.basic_info} />
+        <About
+          resumeBasicInfo={this.state.resumeData.basic_info}
+          sharedBasicInfo={this.state.sharedData.basic_info}
+        />
+        <Experience
+          resumeExperience={this.state.resumeData.experience}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
+        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
   }

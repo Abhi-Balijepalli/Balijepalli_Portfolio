@@ -1,43 +1,65 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class About extends Component {
   render() {
-
-    if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
+    if (this.props.sharedBasicInfo) {
+      var profilepic = "images/pfp.jpeg" ;
+    }
+    if (this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.about;
+      var hello = this.props.resumeBasicInfo.description_header;
+      var about = this.props.resumeBasicInfo.description;
     }
 
     return (
       <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Abhi" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
-
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"> <i className="fa fa-google-plus"></i>View Resume</a>
-                  </p>
-               </div>
+        <div className="row center mx-auto mb-5">
+          <h1 style={{ color: "black" }}>
+            <span>{sectionName}</span>
+          </h1>
+          <div className="row center mx-auto mb-5">
+            <div className="col-md-8 center">
+              <div className="col-md-10">
+                <div className="card">
+                  <div className="card-header">
+                    <span
+                      className="iconify"
+                      data-icon="emojione:red-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:yellow-circle"
+                      data-inline="false"
+                    ></span>{" "}
+                    &nbsp;{" "}
+                    <span
+                      className="iconify"
+                      data-icon="twemoji:green-circle"
+                      data-inline="false"
+                    ></span>
+                  </div>
+                  <div
+                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    style={{
+                      height: "auto",
+                      fontSize: "165%",
+                      lineHeight: "200%",
+                    }}
+                  >
+                    <br />
+                    <span className="wave">{hello} :) </span>
+                    <br />
+                    <br />
+                    {about}
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-      </div>
-
-   </section>
+          </div>
+        </div>
+      </section>
     );
   }
 }
