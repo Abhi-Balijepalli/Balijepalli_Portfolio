@@ -35,18 +35,20 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight-100, display: 'block' }}>
-        <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-14">
-            <div>
-              <span className="iconify header-icon" data-icon="la:code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-2">
+      <div style={{paddingTop:'1px', border:'1px', borderColor:'black'}} >
+      <div className="row aligner" style={{height: '10%', padding:'10px', margin:'10px'}}>
+      {/* <header id="home" style={{ height: 0, display: 'block' }}> */}
+        {/* <div className="row aligner" style={{height: '10%'}}> */}
+          {/* <div className="col-md-14"> */}
+            {/* <div> */}
+              {/* <span className="iconify header-icon" data-icon="la:code" data-inline="false"></span> */}
+              {/* <br/> */}
+              {/* <h1 className="mb-2">
                 <Typical steps={[name]} wrapper="p" />
-              </h1>
-              <div className="title-container">
+              </h1> */}
+              {/* <div className="title-container">
                 <HeaderTitleTypeAnimation />
-              </div>
+              </div> */}
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
@@ -87,10 +89,12 @@ class Header extends Component {
                 }
                 id="icon-switch"
               />
-            </div>
-          </div>
-        </div>
-      </header>
+            {/* </div> */}
+          {/* </div> */}
+        {/* </div> */}
+      {/* </header> */}
+      </div>
+      </div>
     );
   }
 }

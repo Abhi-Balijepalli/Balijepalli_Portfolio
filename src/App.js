@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
-import Header from "./components/Header";
+import Title from "./components/Title";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -54,7 +54,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        {/* <Header sharedData={this.state.sharedData.basic_info} /> */}
+        <Title sharedBasicInfo={this.state.sharedData.basic_info} />
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
@@ -63,7 +64,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+       <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
   }

@@ -402,7 +402,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background:  linear-gradient(to bottom, #021c47,#00173a);;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -423,6 +423,6 @@ footer a:focus {
 }
 
 .social-links {
-	margin-top: 50px;
+	margin-top: 0px;
 	font-size: 22px;
 }

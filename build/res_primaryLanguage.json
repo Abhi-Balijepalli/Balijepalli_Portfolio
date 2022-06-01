@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Abhi Balijepalli. I graduated from Oregon State University with a Bachelors in Computer Science 🏫. I love talking about startups and hope to create my own one day! In my free time I play badminton 🏸, go hiking 🌄 or ride my bike 🏍️",
+      "description": "👋 I'm Abhi Balijepalli. I graduated from Oregon State University with a Bachelors in Computer Science 🏫 in June 2022. I love talking about startups and hope to create my own one day! In my free time I play badminton 🏸, go hiking 🌄 or ride my bike 🏍️",
       "section_name": {
         "about": "About me",
         "experience": "Experience"
@@ -10,7 +10,7 @@
     "experience": [
       {
         "company": "Zoom",
-        "title": "Site Reliability Developer",
+        "title": "Site Reliability Engineer",
         "years": "7.2022 - present",
         "mainTech": [
           "Kubernetes"

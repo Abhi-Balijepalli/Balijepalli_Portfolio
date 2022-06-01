@@ -49,10 +49,11 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} 👋  </span>
                     <br />
                     <br />
                     {about}
+                    {/* <br /> */}
                   </div>
                 </div>
               </div>
