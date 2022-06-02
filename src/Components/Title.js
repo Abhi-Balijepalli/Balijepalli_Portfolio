@@ -15,7 +15,7 @@ class Title extends Component {
     }
 
     return (
-      <footer id="about" style={{ background: "linear-gradient(to bottom, #234a8c, #183d7c )", marginBottom:'-15px', marginTop:'-10px' }}>
+      <footer id="about" style={{ background: "linear-gradient(to bottom, #234a8c, #183d7c )", padding:'20px', marginBottom:'-2px' }}>
         <div className="mx-auto mb-5">
           <h1>
           <span>Abhi Balijepalli</span>

@@ -12,7 +12,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" style={{marginBottom:'-2px' }}>
         <div className="row center mx-auto mb-5">
           <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
