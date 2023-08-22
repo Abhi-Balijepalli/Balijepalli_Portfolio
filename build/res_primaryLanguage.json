@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'm Abhi 👾, I graduated from Oregon State University 🏫 with a Bachelors in Computer Science 💻 in June 2022. I love talking about startups 📊 and hope to create my own one day! In my free time I play badminton 🏸, go hiking 🌄 or ride my bike 🏍️",
+      "description": "I'm Abhi 👾, I graduated from Oregon State University 🏫 with a Bachelors in Computer Science 💻 in June 2022. I love talking about startups 📊 and hope to create my own one day! In my free time I play badminton 🏸, go hiking 🌄 or ride my motorbike 🏍️",
       "section_name": {
         "about": "About me",
         "experience": "Experience"
@@ -10,19 +10,20 @@
     "experience": [
       {
         "company": "Zoom",
-        "title": "Site Reliability Engineer",
+        "title": "Software Engineer",
         "years": "7.2022 - present",
         "mainTech": [
-          "Kubernetes"
+          "DevOps"
         ],
         "technologies": [
-          "Docker",
           "Python",
           "Ansible",
-          "Golang",
+          "Oracle Cloud",
           "AWS",
-          "Prometheus",
-          "CI/CD"
+          "Kafka",
+          "CI/CD",
+          "Monitoring",
+          "Private Cloud"
         ]
       },
       {
@@ -30,7 +31,7 @@
         "title": "Founding Engineer",
         "years": "02.2021 - 10.2021",
         "mainTech": [
-          "Python"
+          "Full Stack"
         ],
         "technologies": [
           "Flask",
@@ -48,7 +49,7 @@
         "title": "Software Engineering Intern",
         "years": "06.2021 - 09.2021",
         "mainTech": [
-          "Bash"
+          "Network Engineering"
         ],
         "technologies": [
           "Promethus",
