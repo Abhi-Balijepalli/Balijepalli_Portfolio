@@ -10,10 +10,27 @@
     "experience": [
       {
         "company": "Zoom",
-        "title": "Software Engineer",
-        "years": "7.2022 - present",
+        "title": "Software Engineer II",
+        "years": "11.2023 - present",
         "mainTech": [
-          "DevOps"
+          "Infra/SRE"
+        ],
+        "technologies": [
+          "Python",
+          "Ansible",
+          "Oracle Cloud",
+          "AWS",
+          "Kafka",
+          "Jenkins",
+          "Monitoring"
+        ]
+      },
+      {
+        "company": "Zoom",
+        "title": "Software Engineer I",
+        "years": "7.2022 - 10.2023",
+        "mainTech": [
+          "Infra/SRE"
         ],
         "technologies": [
           "Python",
